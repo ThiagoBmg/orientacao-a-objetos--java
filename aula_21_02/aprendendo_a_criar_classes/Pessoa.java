@@ -13,38 +13,38 @@ public class Pessoa{
 
     // Métodos:
     void setNome(String n){
-        nome = n; 
+        this.nome = n; 
     }
 
     String getNome(){
-        return nome; 
+        return this.nome; 
     }
 
     void setCpf(String n){
         if(n.length() < 8){
-            cpf = "INVALID CPF";
+            this.cpf = "INVALID CPF";
         }
         else{
-            cpf = n; 
+            this.cpf = n; 
         }
     }
 
     String getCpf(){
-        return cpf; 
+        return this.cpf; 
     }
 
     void setIdade(int n){
         if(n<0){
-            idade = 0;
+            this.idade = 0;
         }
         else{
 
-            idade = n;
+            this.idade = n;
         }
     }
 
     int getIdade(){
-        return idade; 
+        return this.idade; 
     }
 
     void digaOi(){
@@ -52,7 +52,7 @@ public class Pessoa{
     }
 
     void apresentacao(){
-        System.out.print("Meu nome é "+ nome + "\n");
+        System.out.print("Meu nome é "+ this.nome + "\n");
     }
 
     void despedida(){
