@@ -1,8 +1,11 @@
+import java.util.Scanner;
+
 public class Quadrado{
     // Faça um programa que solicita para o usuário inserir o tamanho do lado de
     // um quadrado e, então, exibe um quadrado vazio desse tamanho com
     // asteriscos nas bordas. Seu programa deve trabalhar com quadrados de
     // todos os comprimentos de lado possíveis entre 1 e 20. 
+    Scanner input = new Scanner(System.in);
     private int qtd_lados;
 
     void print(String text){
@@ -13,7 +16,9 @@ public class Quadrado{
         print("\n");
     }
 
-    void setQuantidadeDeLados(int n){
+    void setQuantidadeDeLados(){
+        this.print("Digite a quantidade de lados: \n");
+        int n = input.nextInt();
         if(n<0 || n>20){
             n = 1;
             this.print("O tamanho de lado escolhido é indisponível, escolha um número inteiro entre 1 e 20");
