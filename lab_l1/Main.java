@@ -15,7 +15,12 @@ public class Main{
         //ex_03.run();
 
         // EXERCICIO 4:
-        Abc ex_04 = new Abc();  
-        ex_04.run();
+        //Abc ex_04 = new Abc();  
+        //ex_04.run();
+        
+        // EXERCICIO 5:
+        Adjacentes ex_05 = new Adjacentes();
+        ex_05.setList();
+
     }
 }
