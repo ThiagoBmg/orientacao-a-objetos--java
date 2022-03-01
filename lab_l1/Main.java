@@ -23,7 +23,7 @@ public class Main{
         //ex_05.setList();
 
         // EXERCICIO 6:
-        Pitagoras ex_06 = new Pitagoras();
-        ex_06.run();
+        //Pitagoras ex_06 = new Pitagoras();
+        //ex_06.run();
     }
 }
