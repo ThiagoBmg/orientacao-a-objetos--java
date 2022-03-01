@@ -13,5 +13,9 @@ public class Main{
         // EXERCICIO 3:
         //Fliper ex_03 = new Fliper();
         //ex_03.run();
+
+        // EXERCICIO 4:
+        Abc ex_04 = new Abc();  
+        ex_04.run();
     }
 }
