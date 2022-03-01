@@ -9,5 +9,9 @@ public class Main{
         //Produtos ex_02 = new Produtos();
         //ex_02.mostrarProdutos();
         //ex_02.consultarValorPorQuantidade();
+
+        // EXERCICIO 3:
+        //Fliper ex_03 = new Fliper();
+        //ex_03.run();
     }
 }
