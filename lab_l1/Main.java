@@ -19,8 +19,11 @@ public class Main{
         //ex_04.run();
         
         // EXERCICIO 5:
-        Adjacentes ex_05 = new Adjacentes();
-        ex_05.setList();
+        //Adjacentes ex_05 = new Adjacentes();
+        //ex_05.setList();
 
+        // EXERCICIO 6:
+        Pitagoras ex_06 = new Pitagoras();
+        ex_06.run();
     }
 }
