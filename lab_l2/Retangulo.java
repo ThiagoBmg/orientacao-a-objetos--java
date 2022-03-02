@@ -1,4 +1,3 @@
-
 public class Retangulo {
     private int lado1, lado2; 
     void setLado1(int n){
