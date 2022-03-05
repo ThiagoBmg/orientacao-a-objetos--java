@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] arg){
         Scanner input = new Scanner(System.in);
+
         //// EXERCICIO 1: 
         //Retangulo ret1 = new Retangulo();
         //Retangulo ret2 = new Retangulo();
@@ -55,16 +56,44 @@ public class Main{
         //// ○ altere o volume e o canal de tv1 e tv2
         //tv1.alteraCanal( 2 );
         //tv2.alteraCanal( -3 );
-        //tv1.alteraVolume( 3 );
+        //tv1.alteraVolume( 3 );boolean
         //tv2.alteraVolume( 2 );
         //// ○ desligue a tv2
         //tv2.setLigada(false);
 
         // EXERCICIO 3:
-      
+        Funcionario funcionario1 = new Funcionario();
+        funcionario1.setNome("Thiago");
+        funcionario1.setSobrenome("Gomes");
+        funcionario1.setSalario_mensal(11.00);
+
+        System.out.print("O funcionario(a) "+ funcionario1.getNome() + " " + funcionario1.getSobrenome() + " tem um sálario mensal de " + funcionario1.getSalario_mensal());
+        System.out.println();
+        System.out.print("E o salário anual de "+ funcionario1.getSalarioAnual());
+        // aplicando novo salário 
+        funcionario1.setNewSalario();
+        System.out.println();
+        System.out.printf("O salário com o ajuste aplicado é de %.2f", funcionario1.getSalarioAnual());
+    
+        Funcionario funcionario2 = new Funcionario();
+        funcionario2.setNome("Renato");
+        funcionario2.setSobrenome("Gomes");
+        funcionario2.setSalario_mensal(120.00);
+        System.out.println();
+        System.out.println();
+        
+        System.out.print("O funcionario(a) "+ funcionario2.getNome() + " " + funcionario2.getSobrenome() + " tem um sálario mensal de " + funcionario2.getSalario_mensal());
+        System.out.println();
+        System.out.print("E o salário anual de "+ funcionario2.getSalarioAnual());
+        // aplicando novo salário 
+        funcionario2.setNewSalario();
+        System.out.println();
+        System.out.printf("O salário com o ajuste aplicado é de %.2f", funcionario2.getSalarioAnual());
+
+
         // EXERCICIO 4:
         
-        // EXERCICIO 5:
+        // EXERCICIO 5
         
         // EXERCICIO 6:
     }
