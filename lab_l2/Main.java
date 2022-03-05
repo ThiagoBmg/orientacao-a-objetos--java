@@ -124,6 +124,12 @@ public class Main{
         paciente.setAltura(input.nextDouble());
         System.out.print("Digite o peso do paciente: ");
         paciente.setPeso(input.nextDouble());
-
+        System.out.print("Digite o ano de seu nascimento: ");
+        paciente.setAno(input.nextInt());
+        System.out.print("Digite o mês de seu nascimento: ");
+        paciente.setMes(input.nextInt());
+        System.out.print("Digite o dia de seu nascimento: ");
+        paciente.setData(input.nextInt());
+        System.out.println("A idade do paciente "+ paciente.getNome()+" é "+ paciente.getIdade());
     }
 }

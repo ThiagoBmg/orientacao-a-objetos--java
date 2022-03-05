@@ -52,5 +52,8 @@ public class PerﬁlDeSaude {
         this.peso = peso;
     }
 
+    public int getIdade(){
+        return 2022 - this.ano; 
+    }
     
 }
