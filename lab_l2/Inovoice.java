@@ -1,4 +1,4 @@
-public class Inovice {
+public class Inovoice {
     String identiﬁcador, descricao;
     int quantidade;
     double preco;
