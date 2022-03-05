@@ -93,6 +93,24 @@ public class Main{
 
         // EXERCICIO 4:
         
+        Invoice teste1 = new Invoice();
+        teste1.setDescricao("Teste1");
+        teste1.setIdentiﬁcador("teste1");
+        teste1.setQuantidade(-10);
+        teste1.setPreco(-200);
+        teste1.mostrarDetalhes();
+
+        System.out.println();
+        System.out.println();
+
+        Invoice teste2 = new Invoice();
+        teste2.setDescricao("Teste2");
+        teste2.setIdentiﬁcador("teste2");
+        teste2.setQuantidade(10);
+        teste2.setPreco(200);
+        teste2.mostrarDetalhes();
+
+        
         // EXERCICIO 5
         
         // EXERCICIO 6:
