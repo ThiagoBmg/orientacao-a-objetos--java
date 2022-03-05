@@ -22,9 +22,10 @@ public class Main{
         //System.out.printf("O retangulo 2 com os lados a %d, e lado b %d\n", ret2.getLado1(), ret2.getLado2());
         //System.out.printf("Tem a area igual a %d e o perimetro igual a %d", ret2.area(), ret2.perimetro());
 
-        ////EXERCICIO 2:
+        //EXERCICIO 2:
         //Televisao tv1 = new Televisao();
         //Televisao tv2 = new Televisao();
+//
         //// ○ obtenha pelo teclado os valores dos atributos e inicialize com set
         //System.out.print("Digite o Modelo da tv1: ");
         //tv1.setModelo(input.nextLine());
@@ -43,6 +44,8 @@ public class Main{
         //System.out.print("Digite o Status atual da tv1 (true ou false): ");
         //tv1.setLigada(input.nextBoolean());
         //System.out.print("\n\n");
+//
+//
         //System.out.print("Digite o Preço da tv2: ");
         //tv2.setPreco(input.nextFloat());
         //System.out.print("Digite o Tamanho da tv2: ");
@@ -56,7 +59,7 @@ public class Main{
         //// ○ altere o volume e o canal de tv1 e tv2
         //tv1.alteraCanal( 2 );
         //tv2.alteraCanal( -3 );
-        //tv1.alteraVolume( 3 );boolean
+        //tv1.alteraVolume( 3 );
         //tv2.alteraVolume( 2 );
         //// ○ desligue a tv2
         //tv2.setLigada(false);
@@ -113,7 +116,14 @@ public class Main{
         
         // EXERCICIO 5  
         PerﬁlDeSaude paciente = new PerﬁlDeSaude();
-    
+        System.out.print("Digite o nome do paciente: ");
+        paciente.setNome(input.nextLine());
+        System.out.print("Digite o sobrenome do paciente: ");
+        paciente.setSobrenome(input.nextLine());
+        System.out.print("Digite a altura do paciente: ");
+        paciente.setAltura(input.nextDouble());
+        System.out.print("Digite o peso do paciente: ");
+        paciente.setPeso(input.nextDouble());
 
     }
 }
