@@ -55,5 +55,10 @@ public class PerﬁlDeSaude {
     public int getIdade(){
         return 2022 - this.ano; 
     }
+
+    public double IMC(){
+        return this.peso * (Math.pow(this.altura, 2));
+        
+    }
     
 }

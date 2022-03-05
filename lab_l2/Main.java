@@ -131,5 +131,7 @@ public class Main{
         System.out.print("Digite o dia de seu nascimento: ");
         paciente.setData(input.nextInt());
         System.out.println("A idade do paciente "+ paciente.getNome()+" é "+ paciente.getIdade());
+        System.out.println("O IMC do paciente "+ paciente.getNome()+" é "+ paciente.IMC());
+    
     }
 }
