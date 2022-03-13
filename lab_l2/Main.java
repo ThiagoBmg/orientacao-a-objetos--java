@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] arg){
         Scanner input = new Scanner(System.in);
-
         //// EXERCICIO 1: 
         //Retangulo ret1 = new Retangulo();
         //Retangulo ret2 = new Retangulo();
@@ -24,8 +23,7 @@ public class Main{
 
         //EXERCICIO 2:
         //Televisao tv1 = new Televisao();
-        //Televisao tv2 = new Televisao();
-//
+        //Televisao tv2 = new Televisao(); 
         //// ○ obtenha pelo teclado os valores dos atributos e inicialize com set
         //System.out.print("Digite o Modelo da tv1: ");
         //tv1.setModelo(input.nextLine());
@@ -44,8 +42,7 @@ public class Main{
         //System.out.print("Digite o Status atual da tv1 (true ou false): ");
         //tv1.setLigada(input.nextBoolean());
         //System.out.print("\n\n");
-//
-//
+
         //System.out.print("Digite o Preço da tv2: ");
         //tv2.setPreco(input.nextFloat());
         //System.out.print("Digite o Tamanho da tv2: ");
@@ -69,7 +66,7 @@ public class Main{
         //funcionario1.setNome("Thiago");
         //funcionario1.setSobrenome("Gomes");
         //funcionario1.setSalario_mensal(11.00);
-//
+
         //System.out.print("O funcionario(a) "+ funcionario1.getNome() + " " + funcionario1.getSobrenome() + " tem um sálario mensal de " + funcionario1.getSalario_mensal());
         //System.out.println();
         //System.out.print("E o salário anual de "+ funcionario1.getSalarioAnual());
@@ -77,14 +74,14 @@ public class Main{
         //funcionario1.setNewSalario();
         //System.out.println();
         //System.out.printf("O salário anual com o ajuste aplicado é de %.2f", funcionario1.getSalarioAnual());
-    //
+
         //Funcionario funcionario2 = new Funcionario();
         //funcionario2.setNome("Renato");
         //funcionario2.setSobrenome("Gomes");
         //funcionario2.setSalario_mensal(120.00);
         //System.out.println();
         //System.out.println();
-        //
+
         //System.out.print("O funcionario(a) "+ funcionario2.getNome() + " " + funcionario2.getSobrenome() + " tem um sálario mensal de " + funcionario2.getSalario_mensal());
         //System.out.println();
         //System.out.print("E o salário anual de "+ funcionario2.getSalarioAnual());
@@ -95,17 +92,16 @@ public class Main{
 
 
         // EXERCICIO 4:
-        
         //Invoice teste1 = new Invoice();
         //teste1.setDescricao("Teste1");
         //teste1.setIdentiﬁcador("teste1");
         //teste1.setQuantidade(-10);
         //teste1.setPreco(-200);
         //teste1.mostrarDetalhes();
-//
+
         //System.out.println();
         //System.out.println();
-//
+
         //Invoice teste2 = new Invoice();
         //teste2.setDescricao("Teste2");
         //teste2.setIdentiﬁcador("teste2");
@@ -115,23 +111,23 @@ public class Main{
 
         
         // EXERCICIO 5  
-        PerﬁlDeSaude paciente = new PerﬁlDeSaude();
-        System.out.print("Digite o nome do paciente: ");
-        paciente.setNome(input.nextLine());
-        System.out.print("Digite o sobrenome do paciente: ");
-        paciente.setSobrenome(input.nextLine());
-        System.out.print("Digite a altura do paciente: ");
-        paciente.setAltura(input.nextDouble());
-        System.out.print("Digite o peso do paciente: ");
-        paciente.setPeso(input.nextDouble());
-        System.out.print("Digite o ano de seu nascimento: ");
-        paciente.setAno(input.nextInt());
-        System.out.print("Digite o mês de seu nascimento: ");
-        paciente.setMes(input.nextInt());
-        System.out.print("Digite o dia de seu nascimento: ");
-        paciente.setData(input.nextInt());
-        System.out.println("A idade do paciente "+ paciente.getNome()+" é "+ paciente.getIdade());
-        System.out.println("O IMC do paciente "+ paciente.getNome()+" é "+ paciente.IMC());
+        //PerﬁlDeSaude paciente = new PerﬁlDeSaude();
+        //System.out.print("Digite o nome do paciente: ");
+        //paciente.setNome(input.nextLine());
+        //System.out.print("Digite o sobrenome do paciente: ");
+        //paciente.setSobrenome(input.nextLine());
+        //System.out.print("Digite a altura do paciente: ");
+        //paciente.setAltura(input.nextDouble());
+        //System.out.print("Digite o peso do paciente: ");
+        //paciente.setPeso(input.nextDouble());
+        //System.out.print("Digite o ano de seu nascimento: ");
+        //paciente.setAno(input.nextInt());
+        //System.out.print("Digite o mês de seu nascimento: ");
+        //paciente.setMes(input.nextInt());
+        //System.out.print("Digite o dia de seu nascimento: ");
+        //paciente.setData(input.nextInt());
+        //System.out.println("A idade do paciente "+ paciente.getNome()+" é "+ paciente.getIdade());
+        //System.out.println("O IMC do paciente "+ paciente.getNome()+" é "+ paciente.IMC());
     
     }
 }
