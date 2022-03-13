@@ -35,5 +35,12 @@ public class Main {
         // patientA = input.nextInt();
         // HeartRates hr = new HeartRates(patientN, patientS, patientD, patientM, patientA, dc, mc, ac);
         // hr.get_result();
+
+        // // Exercicio 4
+        // Aluno ex_4 = new Aluno();
+        // ex_4.setCurso("Ciência da Computação");
+        // ex_4.setNome("Renato Cariani");
+        // ex_4.setRA("123456789");
+        // ex_4.create_response();
     }
 }
